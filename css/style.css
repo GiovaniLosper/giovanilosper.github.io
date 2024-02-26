@@ -1,0 +1,9 @@
+body {
+    padding-top: 56px; /* Offset for fixed navbar */
+}
+
+section {
+    padding: 60px 0;
+}
+
+/* Add more custom styles here */
