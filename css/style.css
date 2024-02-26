@@ -6,4 +6,156 @@ section {
     padding: 60px 0;
 }
 
-/* Add more custom styles here */
+/* Hero section */
+.hero-section {
+    background: url('/assets/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-section p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+}
+
+.hero-section .btn-primary {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p.lead {
+        font-size: 1rem;
+    }
+
+    .hero-section {
+        padding: 80px 0;
+    }
+}
+
+/* About section */
+#about {
+    padding: 60px 0;
+    background-color: #f8f9fa; /* Optional: Change the background color */
+}
+
+#about img {
+    margin-bottom: 20px;
+}
+
+#about p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/* portfolio section */
+#portfolio {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+#portfolio h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.card {
+    transition: transform .2s; /* Animation */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly increase scale on hover */
+}
+
+/* Resume section */
+#resume {
+    padding: 60px 0;
+}
+
+#resume h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.resume-item {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.resume-item h4 {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.resume-item h5,
+.resume-item p {
+    font-size: 16px;
+}
+
+.resume-item p {
+    margin-bottom: 0;
+}
+
+
+/* Contact section */
+#contact {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+#contact h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#contact .form-control {
+    border-radius: 0;
+}
+
+#contact button[type="submit"] {
+    border-radius: 0;
+    padding: 10px 30px;
+}
+
+/* Footer section */
+footer {
+    background-color: #222;
+    color: #aaa;
+}
+
+footer a.text-light {
+    color: #fff;
+}
+
+footer a.text-light:hover {
+    color: #fed136;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .social-links a {
+        font-size: 1.2rem; /* Smaller icons for mobile */
+        margin: 0 5px;
+    }
+}
